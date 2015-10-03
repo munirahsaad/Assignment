@@ -12,8 +12,8 @@ public class Binary {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		String fn = "munirah.txt";
-		String rfn = "munirah_Binary_Reverse.txt";
+		String fn = "munirah.bin";
+		String rfn = "munirah_Binary_Reverse.bin";
 		String fc = "Nama\t:\tNoor Munirah bt Md Saad\nId\t:\t2014828976\nKursus\t:\tCS708\nUniversiti\t:\tUiTM Kampus Shah Alam\n";
 		
 		Binary b1 = new Binary();
