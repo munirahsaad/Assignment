@@ -17,12 +17,7 @@ public class Test2 {
 		try{
 		//Printing Mac Address
 		System.out.println("Mac Address -->\t\t"+t2.getMAC());
-		
-		//Printing IPv6 Address
-		
-		System.out.print("IPv6 Address -->\t");
-		System.out.print(t2.getIPv6Addresses(InetAddress.getAllByName(t2.getIPv4Address().getHostName())).getHostAddress());
-		
+				
 		}catch(Exception e){
 			
 		}
@@ -54,17 +49,10 @@ public class Test2 {
 		return InetAddress.getLocalHost();
 	}
 	
-	public Inet6Address getIPv6Addresses(InetAddress[] addresses) {
-	    for (InetAddress addr : addresses) {
-	        if (addr instanceof Inet6Address) {
-	            return (Inet6Address) addr;
-	        }
-	    }
-	    return null;
-	
+
 }
 	
 
 	
 	
-}
+
